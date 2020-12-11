@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Bio</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container sign-in-container">
+            <center>
+                <h2 style="margin-top:25%">Username: <%= user.name %></h2>
+                <h3>Email: <%= user.email %></h3>
+            </center>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-right">
+                    <h1 style="margin-top:-50%">Welcome <br><%= user.name %>!</h1>
+                    <p>What's in your mind right now?</p>
+                </div>
+</html>
